@@ -12,7 +12,7 @@ public class Rectangle {
         return this.width == rect.width && this.height == rect.height;
     }
 
-    // You can test Task 2 right here!
+    
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(5, 10);
         Rectangle r2 = new Rectangle(15, 10);
