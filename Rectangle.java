@@ -1,4 +1,4 @@
-class Rectangle {
+public class Rectangle {
     int width, height;
 
     public Rectangle(int w, int h) {
@@ -11,9 +11,8 @@ class Rectangle {
         Rectangle rect = (Rectangle) obj;
         return this.width == rect.width && this.height == rect.height;
     }
-}
 
-public class Main {
+    // You can test Task 2 right here!
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(5, 10);
         Rectangle r2 = new Rectangle(15, 10);
