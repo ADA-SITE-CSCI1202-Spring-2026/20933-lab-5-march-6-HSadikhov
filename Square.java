@@ -4,7 +4,7 @@ public class Square extends Rectangle {
         super(side, side); 
     }
 
-    // You can test Task 3 right here!
+    
     public static void main(String[] args) {
         Object o1 = new Rectangle(5, 10);
         Object o2 = new Rectangle(15, 15);
